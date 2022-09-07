@@ -16,3 +16,16 @@
 #     result *= i
 #     i=i+1
 #     print(result)
+
+# 3.Задайте список из n чисел последовательности $(1+\frac 1 n)^n$ и выведите на экран их сумму.
+
+# n = int(input('Введите число: '))
+# i = 1
+# result=0
+# sum = 0
+# while (i <= n):
+#     result = round((1+1/i)**i,2)
+#     print(result)
+#     sum = sum + result
+#     i=i+1
+# print(round(sum))
